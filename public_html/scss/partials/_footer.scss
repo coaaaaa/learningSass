@@ -19,21 +19,21 @@ footer {
             font-family: $footer-font;
             font-weight: $font-bold;
             color: $footer-color;
-            font-size: 1.8rem;  
-            
+            font-size: 1.8rem;
+
             &:hover, &.active{
                 color: $footer-link-hover;
             }
-        } //a end
-    } //ul end 
-    
+        }//a end
+    }//ul end 
+
     .copyright {
         color: $footer-color;
         text-align: center;
     }
-} //footer end
+}//footer end
 
-@media(min-width: 768px){
+@media (min-width: 768px) {
     footer{
         ul{
             display: flex;
@@ -45,4 +45,3 @@ footer {
         }
     }
 }
-  

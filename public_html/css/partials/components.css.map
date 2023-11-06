@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "components.css",
-	"sources": [
-		"../../scss/partials/components.scss"
-	],
-	"names": [],
-	"mappings": "AACA,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,IAAI;CAEf"
-}

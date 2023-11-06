@@ -22,7 +22,7 @@ footer {
             font-size: 1.8rem;
 
             &:hover, &.active{
-                color: $footer-link-hover;
+                color: complement($footer-bg);
             }
         }//a end
     }//ul end 

@@ -3,10 +3,10 @@
   display: inline-block;
   padding: 10px 25px;
   border: none;
-  border-radius: 5px, 50%, 5px, 50%;
-  -moz-border-radius: 5px, 50%, 5px, 50%;
-  -webkit-border-radius: 5px, 50%, 5px, 50%;
-  -o-border-radius: 5px, 50%, 5px, 50%;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
   cursor: pointer;
 }
 
@@ -39,7 +39,7 @@
 
 .btn-warning {
   background-color: #f77a05;
-  color: #ffffff;
+  color: #000000;
 }
 
 .btn-warning:hover {
@@ -520,10 +520,10 @@ header nav ul li a:hover, header nav ul li a.active {
 }
 
 .comment-section .comment-img img {
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
 }
 
 .course-section {

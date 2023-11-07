@@ -1,4 +1,4 @@
-$btn-default: $dark-gray;
+/*$btn-default: $dark-gray;
 $btn-default-color: $white;
 $btn-dark-color: $black;
 
@@ -6,7 +6,20 @@ $btn-danger: $red;
 $btn-success: $green;
 $btn-warning: $orange;
 $btn-info: $cyan;
-$btn-dark: $black;
+$btn-dark: $black;*/
+
+$btn-collection: (
+
+'default': $dark-gray,
+'danger': $red,
+'success': $green,
+'warning': $orange,
+'info': $cyan,
+'dark': lighten($black, 10%),
+'fancy': $purple
+
+);  
+
 
 %btn {
     display: inline-block;
@@ -20,7 +33,24 @@ $btn-dark: $black;
 
 }
 
-.btn-default{
+
+@each $key, $value in $btn-collection{
+    
+    .btn-#{$key}{
+        @extend %btn;
+        background-color: $value;
+        color: colorYiq($value);
+        
+        &:hover{
+            background-color: darken($value, 10%);
+        }
+    }
+}
+
+
+
+
+/*.btn-default{
     @extend %btn;
     background-color: $btn-default;
     color: colorYiq($btn-default);
@@ -76,4 +106,4 @@ $btn-dark: $black;
     &:hover{
         background-color: lighten($btn-dark, 10%);
     }
-}
+}*/
